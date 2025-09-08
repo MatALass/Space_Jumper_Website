@@ -28,4 +28,4 @@ It features multiple interactive pages, custom styling, and a gameplay video for
 - A modern browser (Chrome, Firefox, Edge)
 
 ## 📜 License
-This project is for educational purposes. License terms can be added here.
+This project is for educational purposes.
