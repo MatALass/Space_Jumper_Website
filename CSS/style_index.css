@@ -1,0 +1,63 @@
+body{
+    background-color: floralwhite;
+}
+
+p {
+    position: relative;
+    left: 5%;
+    margin: 0;
+    padding: 0;
+    max-width: 40%;
+    color: rebeccapurple;
+    font-style: initial;
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url('../Images/ingame.png');
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+h1, h2{
+    position: relative;
+    color: white;
+    bottom: 500px;
+}
+
+.citation{
+    font-family: Berlin Sans FB, sans-serif;
+    top:40%;
+    font-size: 70px;
+    margin-left: 50px;
+}
+
+.citation span{
+    color: darkorange;
+}
+
+.sous-citation{
+    color: mediumpurple;
+    top:50%;
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+#firstimage{
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.launch_image{
+    position: relative;
+    bottom : 550px;
+    transform: translateX(110%);
+    max-width: 45%;
+    max-height: 85%;
+    border-radius: 2%;
+    border-style: outset;
+    border-color: mediumpurple;
+}

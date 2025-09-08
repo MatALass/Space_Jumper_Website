@@ -1,0 +1,55 @@
+body{
+    background-image:url("../Images/back-ground.png");
+}
+
+
+h2{
+    justify-content: center;
+    margin: 150px auto 40px;
+    display: flex;
+    font-size: 70px;
+    font-family: 'Andale Mono', monospace;
+    font-weight: bold;
+    color:mediumpurple;
+}
+
+
+#leaderboard {
+    width: 80%;
+
+    border-collapse: collapse;
+    background: linear-gradient(45deg,mediumpurple, lightskyblue );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    justify-content: center;
+    left: 10%;
+}
+
+#leaderboard th, #leaderboard td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+
+    font-family: OCR A Std, monospace;
+}
+#leaderboard thead {
+    background: linear-gradient(45deg, royalblue, #5f2c82);
+}
+
+#leaderboard td{
+    font-size: 25px;
+}
+#leaderboard th {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+

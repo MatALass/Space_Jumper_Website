@@ -1,0 +1,67 @@
+body{
+    background-image:url("../Images/back-ground.png");
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    background: linear-gradient(45deg,mediumpurple, lightskyblue );
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    justify-content: center;
+    left: 10%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    padding: 15px;
+    background-color: rgba(255,255,255,0.2);
+    color: white;
+    font-family: OCR A Std, monospace;
+}
+
+th {
+    font-weight: bold;
+    font-size: 50px;
+    color: floralwhite;
+    font-family: OCR A Std, monospace;
+    text-align: center;
+}
+
+td{
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+}
+
+thead {
+    background: linear-gradient(45deg, royalblue, #5f2c82);
+}
+
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+section{
+    margin: 200px auto;
+    max-width: 80%;
+    background-color: floralwhite;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: double;
+    border-color: grey;
+    border-width: 10px;
+}
+
+p{
+
+    text-align: center;
+    z-index: -1;
+    padding: 10px;
+    margin:50px;
+    font-weight: 300;
+    color: rebeccapurple;
+    font-family: OCR A Std, monospace;
+    font-size: 25px;
+}
+
